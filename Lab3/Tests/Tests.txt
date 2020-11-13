@@ -1,0 +1,69 @@
+Tests
+// Find words in a string that consist of the same letters,
+// but differ in their order in the word record
+    1. Check 3 words, all 3 should go back.
+qwerty ytrewq wertyq
+    2. Check some words which must be grouped in 2 combinations.
+asdf qwer zxcv rewq fdsa vcxz
+    3. Check input with some extra words.
+asd fgh ztqr dsa ujn dsa qzrt ppjh
+    4. Check words made of same letters, but different quantity.
+qqqqw qqqww qqwww qwwww wwwww wwwwq wwwqq wwqqq wqqqq qqqqq
+    5. Check long string of words with extra spaces
+                   qwertyuiopasdfghjklzxcvbnm          mnbvcxzlkjhgfdsapoiuytrewq         azxswedcvfrtgbhynjumkiolp polmkijnbhuygvcftrdxzsewaq      azmkop       poijnzaq         qasdfhrycvxbn v       kssvnvekreivnfd               veihifinvfinx            wefweucsodnfhbbfuibu sedfrtghyjukilop                            polkiujhytgfdsaqw                zaxscdvfbgnhmj jmhngbfvdcsxaz                 aqswdefrgthyjukiol              ikolyhujrftgwsedqa              mnhjyu v     bgftr       trfv 
+                   
+                   
+                   
+                   
+                   In consol (Consol.pnj)
+
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+user@user:~/Desktop/LABS/Lab3$ ./run
+bash: ./run: No such file or directory
+user@user:~/Desktop/LABS/Lab3$ ./no
+Please, enter your string.
+qwerty ytrewq wertyq
+
+Combination: qwerty ytrewq wertyq 
+
+Time: 0.00005600 secondsuser@user:~/Desktop/LABS/Lab3$ ./no
+Please, enter your string.
+asdf qwer zxcv rewq fdsa vcxz
+
+Combination: asdf fdsa 
+Combination: qwer rewq 
+Combination: zxcv vcxz 
+
+Time: 0.00006200 secondsuser@user:~/Desktop/LABS/Lab3$ ./no
+Please, enter your string.
+asd fgh ztqr dsa ujn dsa qzrt ppjh
+
+Combination: asd dsa dsa 
+Combination: ztqr qzrt 
+
+Time: 0.00002300 secondsuser@user:~/Desktop/LABS/Lab3$ ./no
+Please, enter your string.
+qqqqw qqqww qqwww qwwww wwwww wwwwq wwwqq wwqqq wqqqq qqqqq
+
+Combination: qqqqw wqqqq 
+Combination: qqqww wwqqq 
+Combination: qqwww wwwqq 
+Combination: qwwww wwwwq 
+
+Time: 0.00008700 secondsuser@user:~/Desktop/LABS/Lab3$ ./no
+Please, enter your string.
+                   qwertyuiopasdfghjklzxcvbnm          mnbvcxzlkjhgfdsapoiuytrewq         azxswedcvfrtgbhynjumkiolp polmkijnbhuygvcftrdxzsewaq      azmkop       poijnzaq         qasdfhrycvxbn v       kssvnvekreivnfd               veihifinvfinx            wefweucsodnfhbbfuibu sedfrtghyjukilop                            polkiujhytgfdsaqw                zaxscdvfbgnhmj jmhngbfvdcsxaz                 aqswdefrgthyjukiol              ikolyhujrftgwsedqa              mnhjyu v     bgftr       trfv 
+
+Combination: qwertyuiopasdfghjklzxcvbnm mnbvcxzlkjhgfdsapoiuytrewq polmkijnbhuygvcftrdxzsewaq 
+Combination: v v 
+Combination: zaxscdvfbgnhmj jmhngbfvdcsxaz 
+Combination: aqswdefrgthyjukiol ikolyhujrftgwsedqa 
+
+user@user:~/Desktop/LABS/Lab3$ 
+

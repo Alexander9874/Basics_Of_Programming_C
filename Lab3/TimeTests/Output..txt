@@ -1,0 +1,123 @@
+
+30 items
+
+user@user:~/Desktop/LABS/Lab3/Tests$ cc WithoutTests.c -o no -std=c99
+user@user:~/Desktop/LABS/Lab3/Tests$ cc WithTests.c -o yes -std=c99
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00011500 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00013200 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00013300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00013100 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00013200 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00011600 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00013300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00013400 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00013500 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00013300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00013500 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00013600 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00013400 seconds
+
+300 items
+
+user@user:~/Desktop/LABS/Lab3/Tests$ cc WithoutTests.c -o no -std=c99
+user@user:~/Desktop/LABS/Lab3/Tests$ cc WithTests.c -o yes -std=c99
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00534600 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00940600 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00986900 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00965800 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00539800 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.00928300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00915700 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00481500 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00458100 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00921300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00913300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.00921200 seconds
+
+3000 items
+
+user@user:~/Desktop/LABS/Lab3/Tests$ cc WithoutTests.c -o no -std=c99
+user@user:~/Desktop/LABS/Lab3/Tests$ cc WithTests.c -o yes -std=c99
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.20030100 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.20410700 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.22271900 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.22226100 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.20244700 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 0.22274600 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.22642300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.20029700 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.20454700 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.20170900 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.20195300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 0.22458600 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ 
+
+30000 items
+
+user@user:~/Desktop/LABS/Lab3/Tests$ cc WithoutTests.c -o no -std=c99
+user@user:~/Desktop/LABS/Lab3/Tests$ cc WithTests.c -o yes -std=c99
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 17.69420300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 17.62990600 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 18.26853800 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 18.56546600 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 17.88976300 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./no
+My  Time: 18.49957000 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 18.44297800 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 17.51443100 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+./Lib Time: 18.90361400 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 17.55761600 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 17.66818700 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ ./yes
+Lib Time: 17.99466500 seconds
+user@user:~/Desktop/LABS/Lab3/Tests$ 
+
+
+

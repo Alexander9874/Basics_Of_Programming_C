@@ -1,0 +1,54 @@
+Audi:  14
+BMW:  8
+Porsche:  11
+Opel:  7
+Volvo:  8
+Volkswagen:  11
+Mercedes:  12
+Maybach:  11
+Lamborghini:  9
+Ferrari:  9
+Audi:  14
+BMW:  8
+Porsche:  11
+Opel:  7
+Volvo:  8
+Volkswagen:  11
+Mercedes:  12
+Maybach:  11
+Lamborghini:  9
+Ferrari:  9
+Audi:  14
+BMW:  8
+Porsche:  11
+Opel:  7
+Volvo:  8
+Volkswagen:  11
+Mercedes:  12
+Maybach:  11
+Lamborghini:  9
+Ferrari:  9
+Audi:  14
+BMW:  8
+Porsche:  11
+Opel:  7
+Volvo:  8
+Volkswagen:  11
+Mercedes:  12
+Maybach:  11
+Lamborghini:  9
+Ferrari:  9
+Audi:  14
+BMW:  8
+Porsche:  11
+Opel:  7
+Volvo:  8
+Volkswagen:  11
+Mercedes:  12
+Maybach:  11
+Lamborghini:  9
+Ferrari:  9
+Generated .txt:	0.00028900 seconds
+Generated .txt:	0.00039000 seconds
+Generated .txt:	0.00039000 seconds
+Generated .txt:	0.00043900 seconds
